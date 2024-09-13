@@ -1,0 +1,10 @@
+specVersion: 0.36.0
+name: go-serverless
+runtime: go
+registry: localhost
+created: 2024-09-10T17:59:33.110297842Z
+build:
+  builder: pack
+deploy:
+  subscriptions:
+  - source: default
